@@ -18,8 +18,11 @@
             </div>
         </div>
         <div class="row row-botones">
-            <div class="col-md-3 col-sm-12">
-                <button id="encuentrame">Encuéntrame</button>
+            <div class="col-md-1 col-sm-12">
+                <button id="encuentrame" onclick="buscar()">Encuéntrame</button>
+            </div>
+            <div class="col-md-1 col-sm-12">
+                <button id="limpiar" onclick="limpiar()">Limpiar</button>
             </div>
             <div class="col-md-3 col-sm-12">
                 <input id="origen" type="text" placeholder="Tu Origen">
@@ -28,7 +31,7 @@
                 <input id="destino" type="text" placeholder="Tu Destino">
             </div>
             <div class="col-md-3 col-sm-12">
-                <button id="ruta">Ruta</button>
+                <button id="ruta" onclick="onRutaClick(event)">Ruta</button>
             </div>
         </div>
         <div class="row">
