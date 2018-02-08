@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.row-botones {
+    margin: 0 10%;
+}
+
+button {
+    margin: 15px 0;
+    padding: 10px 15px;
+    color: white;
+    background-color: #faae27;
+    border: 0;
+    font-weight: 700;
+    border-radius: 2px;
+    font-family: "Raleway";
+    font-size: 15px;
+    display: block;
+    width: 100%;
+}
+
+button:hover,
+button:focus {
+    outline: 0;
+    background-color: rgba(250, 166, 16, 0.2);
+    border: 1px solid #faae27;
+    color: #faae27;
+}
+
+input {
+    margin: 15px auto;
+    padding: 10px 0;
+    width: 100%;
+}
